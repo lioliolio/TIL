@@ -1,6 +1,6 @@
 ## SMS API 를 이용하여 문자 발송하기
 
-API Test/Client => **Postman**, paw, ..
+API Test/Client => **Postman**, paw, ..  
 **Postman을 사용**
 
 #### Code

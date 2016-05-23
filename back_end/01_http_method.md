@@ -22,5 +22,5 @@
 - Patch ...
 - Delete ...
 
-**RESTful 한 설계 (RESful API)가 중요하다**
+**RESTful 한 설계 (RESful API)가 중요하다**  
 REST : Representational State Transfer

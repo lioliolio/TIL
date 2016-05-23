@@ -7,8 +7,8 @@
 ### Categories
 
 * [Back-End](#back_end)
-
-
+* [Front-End](#front_end)
+* [Python](#python)
 
 ---
 

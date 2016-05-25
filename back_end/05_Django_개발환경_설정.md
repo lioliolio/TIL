@@ -1,7 +1,7 @@
 ## Django 개발 환경 설정
 
 #### 순서
-**`MAC`을 기준으로 작성**  
+**MAC 을 기준으로 작성**  
 
 1. `pyenv`, `virualenv`, `autoenv` 설치
 

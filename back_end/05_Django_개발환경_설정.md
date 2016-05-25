@@ -2,7 +2,9 @@
 
 #### 순서
 **`MAC`을 기준으로 작성**  
+
 1. `pyenv`, `virualenv`, `autoenv` 설치
+
 2. 가상환경 구축
 
 		$ pyenv virtualenv 3.5.1 blog # 파이썬 버전 = 3.5.1, 가상환경 이름 = blog

@@ -1,27 +1,55 @@
 ## Django 개발 환경 설정
 
-#### 순서
-**MAC 을 기준으로 작성**  
+#### `pyenv`, `virualenv`, `autoenv` 설치
+```
+# 파이썬 버전 관리를 위해 pyenv 설치
+$ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
 
-1. `pyenv`, `virualenv`, `autoenv` 설치
+$ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+$ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+$ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+# zsh을 사용하는 경우 ~/.zshrc # ubuntu나 fedora는 ~/.bashrc
 
-2. 가상환경 구축
+$ exec $SHELL
+```
+```
+# 프로젝트 별로 파이썬 버전 관리와 프레임워크, 라이브러리 등을 관리하기 위해 pyenv-virtualenv 설치
 
-		$ pyenv virtualenv 3.5.1 blog # 파이썬 버전 = 3.5.1, 가상환경 이름 = blog
+$ git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
 
-3. 가상환경 실행
+$ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
+# zsh을 사용하는 경우 ~/.zshrc # ubuntu나 fedora는 ~/.bashrc
 
-		$ pyenv activate blog # 가상환경이름 = blog
+$ exec "$SHELL"
+```
+```
+# autoenv를 사용하면 .env 파일을 찾아 스크립트를 자동으로 실행시켜서 해당 개발환경을 설정해줄 수 있다.
 
-4. `autoenv` 사용
+$ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
+$ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
+# zsh을 사용하는 경우 ~/.zshrc # ubuntu나 fedora는 ~/.bashrc
+```
 
-		# ~/my_project/.env 에 이 스크립트 삽입
-		pyenv activate blog
+더 자세한 내용은
 
-5. 패키지 확인
+* [pyenv](https://github.com/yyuu/pyenv)
+* [pyenv-virtualenv](https://github.com/yyuu/pyenv-virtualenv)
+* [autoenv](https://github.com/kennethreitz/autoenv)
 
-		$ pip freeze
+#### `pyenv`, `virualenv`  사용하기 
+```
+$ pyenv install 3.5.2
+$ pyenv virtualenv 3.5.2 blog
 
-6. `Django` 설치
+$ pyenv activate 3.5.2 blog
+```
 
-		$ pip install django==1.9.6
+#### `autoenv`  사용하기 
+```
+# ~/blog/.nev
+pyenv activate blog
+
+$ cd ~/blog/
+
+(blog) $
+```

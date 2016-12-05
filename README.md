@@ -19,9 +19,9 @@
 
 ### Django
 
-- [01. Django_개발환경 설정하기](django/01_set_django_environment.md)
+- [01. Django 개발환경 설정하기](django/01_set_django_environment.md)
 - [02. gitginore 설정하기](django/02_set_gitignore.md)
-- [03. 패키지 관리하기](django/03_manage_packages.md)
+- [03. Python Package 관리하기](django/03_manage_packages.md)
 
 ---
 

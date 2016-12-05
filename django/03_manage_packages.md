@@ -1,28 +1,31 @@
-## `Provisiong`을 위한 `GitHub` 관리법
+## Python Package 관리하기
 
-#### 개발용 패키지와 배포용 패키지를 구분하자
+#### 파이썬 패키지를 requirements.txt 로 관리할 수 있다.
+```
+$ pip install -r requirements.txt
+```
+#### 개발, 배포 등 다양한 환경에 따른 패키지 관리하기
+```
+# ~/blog/requirements/production.txt
 
-1. `requirements` 폴더를 생성
+django==1.9.8
+```
+```
+# ~/blog/requirements/development.txt
 
-2. `development.txt`와 `production.txt` 를 `requirements` 폴더 안에서 생성
+-r production.txt
+pep8
+django-debug-toolbar
+```
+```
+# ~/blog/requirements.txt
 
-3. `production.txt`는 배포용 파이썬 패키지
+-r requirements/production.txt
+```
+```
+# 개발용 패키지 설치
+$ pip install -r requirements/development.txt
 
-		# production.txt에는 배포용 파이썬 패키지
-		django==1.9.6
-
-4. `development.txt`는 개발용 파이썬 패키지
-
-		# development.txt에는 production.txt의 배포용 파이썬 패키지와 개발용 파이썬 패키지 
-		-r production.txt
-		ipython
-
-5. `requirements.txt`를 `requirements`의 상위 폴더에 생성
-
-		# requirements.txt에는 배포용 파이썬 패키지
-		-r requirements/production.txt
-
-6. 설치
-
-		# 배포용 패키지 설치
-		$ pip install -r requirements.txt
+# 배포용 패키지 설치
+$ pip install -r requirements.txt
+```

@@ -19,6 +19,6 @@ data = {
 
 response = requests.post("https://hooks.slack.com/services/.../",
 						data=json.dumps(data), # Slack은 JSON 형태의 데이터를 받는다 ( Dict X)
-                        					   # SMS 의 경우에는 unlencoded 로 dict 을 받는다
+                        					   # SMS 의 경우에는 urlencoded 로 dict 을 받는다
 			)
 ```

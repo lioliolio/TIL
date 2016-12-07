@@ -83,9 +83,7 @@ urlpatterns = [
     url(r'^$', home, name="home"),
     url(r'^about/$', about, name="about"),
 ]
-```
-```
-views.py를 views폴더 안에 함수별로 분리를 해놓을 경우 Django 에서는 views/__init__.py를 읽는다.
-__init__.py 안에 사용하는 함수만 넣었다면 
-from blog.views import * 로 함수를 불러오더라도 변경하기 전과는 달리 필요한 함수만 불러올 수 있다.
+# views.py를 views폴더 안에 함수별로 분리를 해놓을 경우 Django 에서는 views/__init__.py를 읽는다.
+# 만약 __init__.py 안에 사용하는 함수만 넣었다면 
+# from blog.views import * 로 함수를 불러오더라도 변경하기 전과는 달리 필요한 함수만 불러올 수 있다.
 ```

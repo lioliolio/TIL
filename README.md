@@ -27,6 +27,7 @@
 - [views.py를 views 모듈로 변경하기](django/change_views_file_to_views_module.md)
 - [include 함수 사용하기](django/use_include_function.md)
 - [urls.py를 urls 모듈로 변경하기](django/change_urls_file_to_urls_module.md)
+- [Django에서 PEP 8 사용하기](django/use_pep8_in_django.md)
 
 ---
 

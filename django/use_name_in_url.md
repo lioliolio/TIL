@@ -1,7 +1,7 @@
 ##url에서 name 사용하기
 
 #### url 함수에 name 사용하기
-```python
+```html
 # blog/templates/header.html
 <header>
     <h1>Header</h1>
@@ -10,7 +10,8 @@
         <li><a href="/news/">News</a></li>
     </ul>
 </header>
-
+```
+```python
 # blog/urls.py
 from django.conf.urls import url, include
 from django.contrib import admin
@@ -30,6 +31,16 @@ urlpatterns = [
 
 # 이때 Django에서는 template tag를 이용하여 직접 url을 입력하는 대신 이름을 사용할 수 있다.
 ```
+```html
+# blog/templates/header.html
+<header>
+    <h1>Header</h1>
+    <ul>
+        <li><a href="{% url "home" %}">Home</a></li>
+        <li><a href="{% url "news" %}">News</a></li>
+    </ul>
+</header>
+```
 ```python
 # blog/urls.py
 from django.conf.urls import url, include
@@ -44,16 +55,6 @@ urlpatterns = [
     url(r'^$', home, name="home"),
     url(r'^news/$', news, name = "news"),
 ]
-
-
-# blog/templates/header.html
-<header>
-    <h1>Header</h1>
-    <ul>
-        <li><a href="{% url "home" %}">Home</a></li>
-        <li><a href="{% url "news" %}">News</a></li>
-    </ul>
-</header>
 
 # url에 name을 설정하면 {% url "name" %} 형식의 template tag를 이용하여 url을 불러올수 있다.
 

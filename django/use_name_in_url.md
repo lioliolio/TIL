@@ -1,7 +1,7 @@
 ##url에서 name 사용하기
 
 #### url 함수에 name 사용하기
-```
+```python
 # blog/templates/header.html
 <header>
     <h1>Header</h1>
@@ -30,7 +30,7 @@ urlpatterns = [
 
 # 이때 Django에서는 template tag를 이용하여 직접 url을 입력하는 대신 이름을 사용할 수 있다.
 ```
-```
+```python
 # blog/urls.py
 from django.conf.urls import url, include
 from django.contrib import admin

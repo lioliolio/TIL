@@ -25,6 +25,8 @@
 - [Django Project 시작하기](django/start_django_project.md)
 - [url에서 name 사용하기](django/use_name_in_url.md)
 - [views.py를 views 모듈로 변경하기](django/change_views_file_to_views_module.md)
+- [include 함수 사용하기](django/use_include_function.md)
+- [urls.py를 urls 모듈로 변경하기](django/change_urls_file_to_urls_module.md)
 
 ---
 

@@ -25,7 +25,8 @@ urlpatterns = [
     url(r'^news/$', news"),
 ]
 
-# news의 url을 변경할 경우 urls.py, header.html 둘 다 수정을 해줘야 한다. 수정해야하는 파일이 많으면 많을수록 같은 작업 계속 반복해서 해야한다.
+# news의 url을 변경할 경우 urls.py, header.html 둘 다 수정을 해줘야 한다.
+# 수정해야하는 파일이 많으면 많을수록 같은 작업 계속 반복해서 해야한다.
 
 # 이때 Django에서는 template tag를 이용하여 직접 url을 입력하는 대신 이름을 사용할 수 있다.
 ```

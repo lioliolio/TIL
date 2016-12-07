@@ -23,6 +23,7 @@
 - [gitginore 설정하기](django/set_gitignore.md)
 - [Python Package 관리하기](django/manage_packages.md)
 - [Django Project 시작하기](django/start_django_project.md)
+- [url에서 name 사용하기](django/use_name_in_url.md)
 
 ---
 

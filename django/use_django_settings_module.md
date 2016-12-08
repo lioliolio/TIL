@@ -1,4 +1,4 @@
-## DJANGO_SETTINGS_MODULE을 이용하기
+## DJANGO_SETTINGS_MODULE 이용하기
 ```
 $ python manage.py renserver --settings=blog.settings.development
 ```

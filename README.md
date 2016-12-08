@@ -28,6 +28,8 @@
 - [include 함수 사용하기](django/use_include_function.md)
 - [urls.py를 urls 모듈로 변경하기](django/change_urls_file_to_urls_module.md)
 - [Django에서 PEP 8 사용하기](django/use_pep8_in_django.md)
+- [개발 환경과 배포 환경 구분하기
+](django/seperate_develop_and_production_settings.md)
 
 ---
 

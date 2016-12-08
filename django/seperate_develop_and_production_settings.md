@@ -51,4 +51,4 @@ $ python manage.py runserver
 ```
 $ python manage.py renserver --settings=blog.settings.development
 ```
-개발환경으로 서버를 실행하고 싶다면 `--settings`에 위의 값을 넣어서 실행한면 된다.
+개발환경으로 서버를 실행하고 싶다면 `--settings`에 위의 값을 넣어서 실행하면 된다.

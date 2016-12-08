@@ -35,4 +35,4 @@ hello world
 # 포함되어야 한다.
 # Command 클래스는 BaseCommand를 상속받는다.
 ```
-[Writing custom django-admin commands](https://docs.djangoproject.com/en/1.10/howto/custom-management-commands/)
+[Writing custom django-admin commands(공식문서)](https://docs.djangoproject.com/en/1.10/howto/custom-management-commands/)

@@ -31,6 +31,8 @@
 - [개발 환경과 배포 환경 구분하기](django/seperate_develop_and_production_settings.md)
 - [DJANGO_SETTINGS_MODULE 이용하기](django/use_django_settings_module.md)
 - [Django 명령어 만들기](django/make_command.md)
+- [Model 생성하기](django/create_model.md)
+- [makemigrations와 migrate의 차이](django/makemigrations_and_migrate.md)
 
 ---
 

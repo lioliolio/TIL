@@ -20,7 +20,7 @@ if __name__ == "__main__":
 # manage.py 안에 "blog.settings" 을 "blog.settings.development"로 수정하면
 # 뒤에 --settings 없이 개발환경으로 서버를 실행할 수 있다.
 # 하지만 좋은 방법이 아니다.
-# 개발 환경의 일반적으로 로컬에서만 사용하기 때문이다.
+# 개발 환경은 일반적으로 로컬에서만 사용하기 때문이다.
 # 이 때 DJANGO_SETTINGS_MODULE 환경 변수를 이용할 수 있다.
 ```
 ```

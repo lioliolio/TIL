@@ -33,6 +33,7 @@
 - [Django 명령어 만들기](django/make_command.md)
 - [Model 생성하기](django/create_model.md)
 - [makemigrations와 migrate의 차이](django/makemigrations_and_migrate.md)
+- [get_absolute_url() 사용하기](django/use_get_absolute_url.md)
 
 ---
 

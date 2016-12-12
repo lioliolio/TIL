@@ -8,6 +8,7 @@
 
 * [Python](#python)
 * [Django](#django)
+* [Vim](#vim)
 * [ETC](#etc)
 
 ---
@@ -38,6 +39,11 @@
 
 ---
 
+### Vim
+
+- [Vim에 코드 복사, 붙여넣기](vim/copy_and_paste_in_vim.md)
+
+---
 ### ETC 
 
 - [HTTP METHOD](etc/http_method.md)

@@ -36,6 +36,7 @@
 - [Model 생성하기](django/create_model.md)
 - [makemigrations와 migrate의 차이](django/makemigrations_and_migrate.md)
 - [get_absolute_url() 사용하기](django/use_get_absolute_url.md)
+- [모델 데이터가 존재할 때 필드 추가하기](django/add_a_field_if_model_has_data.md)
 
 ---
 

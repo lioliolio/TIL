@@ -16,6 +16,8 @@
 ### Python 
 
 - [Python2 에서 한글 사용하기](python/use_korean_in_python2.md)
+- [파이썬에서의 변수 할당](python/variable_assignment_in_python.md)
+- [sort()와 sorted()](python/sort_and_sorted.md)
 
 ---
 

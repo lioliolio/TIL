@@ -44,6 +44,11 @@
 - [1:N 관계형(Many TO One)](django/about_many_to_one_relationships.md)
 - [개발환경에서 static file 관리하기](django/manage_static_files_in_development_environment.md)
 - [Django 에서 이미지 파일 업로드 하기](django/upload_to_image_file_in_django.md)
+- [Django 기본 기능으로 회원 가입 만들기](django/make_signup_view_in_django.md)
+- [Django 기본 기능으로 로그인 만들기](django/make_login_view_in_django.md)
+- [Django 기본 기능으로 로그아웃 만들기](django/make_logout_view_in_django.md)
+- [Django 기본 기능으로 admin page 사용하기](django/use_admin_page_in_django.md)
+- [login_required 데코레이터 사용하기](django/make_logout_view_in_django.md)
 
 ---
 

@@ -48,7 +48,7 @@
 - [Django 기본 기능으로 로그인 만들기](django/make_login_view_in_django.md)
 - [Django 기본 기능으로 로그아웃 만들기](django/make_logout_view_in_django.md)
 - [Django 기본 기능으로 admin page 사용하기](django/use_admin_page_in_django.md)
-- [login_required 데코레이터 사용하기](django/make_logout_view_in_django.md)
+- [login_required 데코레이터 사용하기](django/use_login_required_decorator.md)
 
 ---
 

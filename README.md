@@ -43,7 +43,7 @@
 - [Custom Model Manager 만들기](django/make_custom_model_manager.md)
 - [1:N 관계형(Many TO One)](django/about_many_to_one_relationships.md)
 - [개발환경에서 static file 관리하기](django/manage_static_files_in_development_environment.md)
-- [Django 에서 이미지 파일 업로드 하기](django/upload_to image_file_in_django.md)
+- [Django 에서 이미지 파일 업로드 하기](django/upload_to_image_file_in_django.md)
 
 ---
 

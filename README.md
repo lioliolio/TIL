@@ -20,7 +20,7 @@
 - [파이썬에서의 변수 할당](python/variable_assignment_in_python.md)
 - [sort()와 sorted()](python/sort_and_sorted.md)
 
----
+--
 
 ### Django
 
@@ -52,6 +52,7 @@
 - [next parameter 를 이용하여 로그인 후 페이지 바로가기 구현](django/use_next_parameter_in_django.md)
 - [Paginator를 이용하여 pagination 구현](django/impliment_pagination_using_Paginator.md)
 - [CBV 장점](django/advantages_of_CBV.md)
+- [View, Mixin(CBV)](django/view_and_mixin_cbv.md)
 
 ---
 

@@ -54,6 +54,7 @@
 - [CBV 장점](django/advantages_of_CBV.md)
 - [View, Mixin (CBV)](django/view_and_mixin_cbv.md)
 - [TemplateView, ListView (CBV)](django/templateview_and_listview_cbv.md)
+- [DetailView (CBV)](django/detailview_cbv.md)
 
 ---
 

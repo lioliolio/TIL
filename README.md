@@ -50,11 +50,11 @@
 - [Django 기본 기능으로 admin page 사용하기](django/use_admin_page_in_django.md)
 - [login_required 데코레이터 사용하기](django/use_login_required_decorator.md)
 - [next parameter 를 이용하여 로그인 후 페이지 바로가기 구현](django/use_next_parameter_in_django.md)
-- [Paginator를 이용하여 pagination 구현](django/impliment_pagination_using_Paginator.md)
 - [CBV 장점](django/advantages_of_CBV.md)
 - [View, Mixin (CBV)](django/view_and_mixin_cbv.md)
 - [TemplateView, ListView (CBV)](django/templateview_and_listview_cbv.md)
 - [DetailView (CBV)](django/detailview_cbv.md)
+- [pagination 구현 (FBV, CBV)](django/impliment_pagination_fbv_and_cbv.md)
 
 ---
 

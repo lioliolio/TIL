@@ -55,6 +55,7 @@
 - [TemplateView, ListView (CBV)](django/templateview_and_listview_cbv.md)
 - [DetailView (CBV)](django/detailview_cbv.md)
 - [pagination 구현 (FBV, CBV)](django/impliment_pagination_fbv_and_cbv.md)
+- [CreateView (CBV)](django/createview_cbv.md)
 
 ---
 

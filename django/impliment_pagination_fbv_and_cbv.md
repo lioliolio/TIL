@@ -88,8 +88,8 @@ class PostListView(ListView):
         return context
 ```
 
-- `get_context_data` 함수에서 context를 리턴하기 전에 FBV와 같은 방식으로 `pagination`이 가능하다.
-- 다만 `get_context_data` 함수는 `context_data`를 전달하는 함수로 이 안에서 `pagination` 기능은 구현하는 건 적합하지 않다.
+- `get_context_data` 메서드에서 context를 리턴하기 전에 FBV와 같은 방식으로 `pagination`이 가능하다.
+- 다만 `get_context_data` 메서드는 `context_data`를 전달하는 함수로 이 안에서 `pagination` 기능은 구현하는 건 적합하지 않다.
 
 ```python
 # get_queryset 에서 pagination
@@ -114,8 +114,8 @@ class PostListView(ListView):
         paginator = Paginator(queryset, per)
         return paginator.page(page)
 ```
-- `get_queryset` 함수는 `context_data` 중 `object_list` 로 들어갈 `queryset` 을 가져오는 함수이다.
-- `get_context_data` 함수보다 더 작은 기능(queryset만 가져오는 기능)을 하기 때문에 위의 함수보다는 `pagination`을 구현하기에 더 적합한 함수이다.
+- `get_queryset` 메서드는 `context_data` 중 `object_list` 로 들어갈 `queryset` 을 가져오는 함수이다.
+- `get_context_data` 메서드보다 더 작은 기능(queryset만 가져오는 기능)을 하기 때문에 위의 메서드보다는 `pagination`을 구현하기에 더 적합한 메서드이다.
 
 ```python
 # get_paginate_by 사용
@@ -135,4 +135,4 @@ class PostListView(ListView):
 ```
 
 - `ListView` 에서는 `paginate_by`를 사용할 수 있는데 숫자를 넣으면 해당 숫자만큼 `pagination`을 해준다.
-- `per` 를 사용하기 위해서 `get_paginate_by` 함수를 위와 같이 사용할 수 있다.
+- `per` 를 사용하기 위해서 `get_paginate_by` 메서드를 위와 같이 사용할 수 있다.

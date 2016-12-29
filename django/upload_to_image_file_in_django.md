@@ -37,7 +37,7 @@ from django.shortcuts import redirect
 from blog.models import Post
 
 
-def list(request):
+def create(request):
     image = request.FILES.get("image")
 
     post = Post.objects.create(

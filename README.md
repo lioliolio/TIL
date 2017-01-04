@@ -56,6 +56,7 @@
 - [DetailView (CBV)](django/detailview_cbv.md)
 - [pagination 구현 (FBV, CBV)](django/impliment_pagination_fbv_and_cbv.md)
 - [CreateView (CBV)](django/createview_cbv.md)
+- [Django Signal: post_save signal 사용하기](django/use_post_save_signal_in_django.md)
 
 ---
 

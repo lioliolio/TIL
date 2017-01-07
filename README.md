@@ -57,6 +57,7 @@
 - [pagination 구현 (FBV, CBV)](django/impliment_pagination_fbv_and_cbv.md)
 - [CreateView (CBV)](django/createview_cbv.md)
 - [Django Signal: post_save signal 사용하기](django/use_post_save_signal_in_django.md)
+- [AbstractUser 모델을 상속하여 User 모델 구현하기](django/make_user_model_inheritanting_abstractuser.md)
 
 ---
 

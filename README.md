@@ -59,6 +59,7 @@
 - [Django Signal: post_save signal 사용하기](django/use_post_save_signal_in_django.md)
 - [AbstractUser 모델을 상속하여 User 모델 구현하기](django/make_user_model_inheritanting_abstractuser.md)
 - [templates 폴더와 STATICFILES_DIRS 설정하기](django/set_templates_folder_and_staticfiles_dirs.md)
+- [django-pipeline을 사용하여 static file 관리하기](django/manage_staticfiles_using_django_pipeline.md)
 
 ---
 

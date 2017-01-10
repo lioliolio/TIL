@@ -61,6 +61,7 @@
 - [templates 폴더와 STATICFILES_DIRS 설정하기](django/set_templates_folder_and_staticfiles_dirs.md)
 - [django-pipeline을 사용하여 static file 관리하기](django/manage_staticfiles_using_django_pipeline.md)
 - [get_user_model() 사용하기](django/use_get_user_model.md)
+- [django-debug-toolbar 설정하기](django/set_django_debug_toolbar.md)
 
 ---
 

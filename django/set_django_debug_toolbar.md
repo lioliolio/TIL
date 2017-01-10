@@ -1,6 +1,6 @@
 ## django-debug-toolbar 설정하기
 
-기존에 사용하던 `django-debug-toolbar 1.4`의 경우 `INSTALLED_APPS` 에 `debug_toolbar` 추가하면 됐다. 하지만 `sqlparser` 버전이 `2.0` 이상이 되면서 오류가 생겨서 최신 버전을 사용하려고 보니 기존보다 복잡해져서 간단하게 정리하기로 한다.  
+기존에 사용하던 `django-debug-toolbar 1.4`의 경우 `INSTALLED_APPS` 에 `debug_toolbar` 추가하면 됐다. 하지만 `sqlparser` 버전이 `2.0` 이상인 경우 오류가 생겨서 최신 버전을 사용하기로 결정했다. 기존에 사용하던 것보다 설정하는 것이 더 복잡해져서 간단하게 정리하기로 한다.  
 
 
 - `INSTALLED_APPS`에 `debug_toolbar` 추가

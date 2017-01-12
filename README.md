@@ -62,7 +62,8 @@
 - [django-pipeline을 사용하여 static file 관리하기](django/manage_staticfiles_using_django_pipeline.md)
 - [get_user_model() 사용하기](django/use_get_user_model.md)
 - [django-debug-toolbar 설정하기](django/set_django_debug_toolbar.md)
-- [flash messages 구현하기](django/implement_flash_messages.md)
+- [Flash Messages 구현하기](django/implement_flash_messages.md)
+- [Python Social Auth - Django를 사용하여 소셜 로그인 기능 구현하기](django/implement_social_login_using_python_social_auth_django.md)
 
 ---
 
